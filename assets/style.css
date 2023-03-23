@@ -1,0 +1,153 @@
+.fondo {
+    background-color: rgb(255, 230, 255);
+}
+
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    background-size: cover;
+    background-color:plum;
+    height: 300px;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: rgb(180, 23, 141);
+    text-decoration: none;
+}
+
+
+
+.links {
+    margin: 2%;
+}
+
+.carrusel {
+    height: 400px;
+}
+
+.carrusel1 {
+    text-align: center;
+    position: relative;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: honeydew;
+    text-shadow: 0 0 30px #fdedb7;
+    
+}
+
+.filtros {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    flex-wrap: wrap;
+    
+}
+
+.checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cartas {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.carta {
+    width: 30rem;
+    height: 45rem;
+}
+
+.base-carta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton {
+    padding: 2%;
+    display: flex;
+    justify-content: start;
+}
+
+.imagenes-detalles{
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    max-height: 500px;
+}
+
+.caja1 {
+    background-color: rgb(230, 229, 229);
+    padding: 5%;
+    display: grid;
+
+
+}
+
+.caja2 {
+    padding-left: 2%;
+    padding-right: 2%;
+    flex-grow: 1.5;
+    justify-content: end;
+}
+
+.titulo-tabla {
+    background-color: rgb(180, 23, 141);
+    font-weight: bolder;
+    color: white;
+
+}
+
+footer {
+    display: flex;
+    background-color: rgb(255, 118, 232);
+    flex-direction: row;
+
+}
+
+.imagen2 {
+    height: 50px;
+    width: 50px;
+    margin: 40px;
+}
+
+
+
+.card-img-top {
+    max-width: 100%;
+    width: 700px;
+    height: 40%;
+    object-fit: cover;
+}
+
+.casilleros {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+  
+}
+
+.casilla {
+    padding-right: 1%;
+}
+
